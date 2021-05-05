@@ -24,4 +24,12 @@ Los objetos ViewModel pueden contener LifecycleObservers, como objetos LiveData.
  }  
 });
  
- 
+Se implementa una hebra utilizando la clase **Thread**:
+
+> Thread thread = new Thread() {  
+  @Override  
+  public void run() {  
+   //...  
+  }  
+ };  
+ thread.start();
